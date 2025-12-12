@@ -1,8 +1,15 @@
 [project]
 name = "custom-collections"
+version = "0.1"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "click-shell>=2.1",
+    "logging>=0.4.9.6",
+    "typer>=0.20.0",
+    "types-click-shell>=2.1.0.20250821",
+]
 
 [dependency-groups]
 dev = [
